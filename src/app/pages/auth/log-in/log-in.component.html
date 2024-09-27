@@ -44,6 +44,12 @@
             <input id="email" formControlName="email" name="email" type="email" required
                    class="flex-1 relative block w-full appearance-none rounded-md border px-2.5 py-1.5 shadow-sm outline-none transition sm:text-sm border-gray-300 dark:border-gray-800 text-gray-600 placeholder-gray-400 dark:placeholder-gray-500 bg-gray-950">
           </div>
+          @if(formControl.get('email')?.hasError('required') && formControl.get('email')?.touched){
+            <p class="text-red-500 text-xs mt-1">Email is required</p>
+
+          } @else if (formControl.get('email')?.hasError('email') && formControl.get('email')?.touched){
+            <p class="text-red-500 text-xs mt-1">Email is invalid</p>
+          }
         </div>
 
         <div>
@@ -54,6 +60,20 @@
             <input id="password" name="password" formControlName="password" type="password" required
                    class="flex-1 relative block w-full appearance-none rounded-md border px-2.5 py-1.5 shadow-sm outline-none transition sm:text-sm border-gray-300 dark:border-gray-800 text-gray-600 placeholder-gray-400 dark:placeholder-gray-500 bg-gray-950">
           </div>
+          @if(formControl.get('password')?.hasError('required') && formControl.get('password')?.touched){
+            <p class="text-red-500 text-xs mt-1">Password is required</p>
+
+          } @else if (formControl.get('password')?.hasError('minlength') && formControl.get('password')?.touched){
+            <p class="text-red-500 text-xs mt-1">Password must be at least 8 characters</p>
+          } @else if (formControl.get('password')?.hasError('pattern') && formControl.get('password')?.touched){
+            <ul class="text-red-500 text-xs mt-1 list-disc pl-5">
+              <li >La contraceña debe tener 8 caracteres de longitud</li>
+              <li >La contraceña debe tener una letra minúscula</li>
+              <li >La contraceña debe tener una letra mayúscula</li>
+              <li >La contraceña debe tener un dígito</li>
+              <li >La contraceña debe tener un carácter especial (por ejemplo, &#64;, #, !, etc.)</li>
+            </ul>
+          }
         </div>
 
         <div class="grid grid-cols-1 gap-5">

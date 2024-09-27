@@ -1,30 +1,16 @@
 # AngularAuthTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+- Test Password
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+  - n%6R7m4Mp6pTsM
+  - dihos56655@adrais.com
+  - VQvFipTM4y%2LfQ
+  - bemiyi7044@crodity.com
+  - Pbos!z3@UXZHrY
+  
+  - R#qC%G$q6sxPZD
+  - n*H@ZnZFpjz@!2
+  - JAr$&LJa5%TpR7
 
 # Solution bug Supabase Auth
 
@@ -46,3 +32,16 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
   }
 }
 ```
+
+https://cbzzqyljjcqevxvcognj.supabase.co/storage/v1/object/sign/gallery/descarga.jpg?token=1a6b2b05001f5b72a8df961c5013bdb820282ea31a3a9070d29eba035a7af933
+https://cbzzqyljjcqevxvcognj.supabase.co/storage/v1/object/sign/gallery/descarga.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJnYWxsZXJ5L2Rlc2NhcmdhLmpwZyIsImlhdCI6MTcxNzEyNjA0MSwiZXhwIjoxNzE3NzMwODQxfQ.UjeEhkZ5h9PbIhWw7tgi10Rtt3rBxwEO8koQsZD5nfo&t=2024-05-31T03%3A27%3A21.945Z
+https://cbzzqyljjcqevxvcognj.supabase.co/storage/v1/object/sign/gallery/descarga.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJnYWxsZXJ5L2Rlc2NhcmdhLmpwZyIsImlhdCI6MTcxNzEyNjA0MSwiZXhwIjoxNzE3NzMwODQxfQ.UjeEhkZ5h9PbIhWw7tgi10Rtt3rBxwEO8koQsZD5nfo&t=2024-05-31T03%3A27%3A21.945Z
+
+
+- Key
+
+Access key ID
+fd23c9697dea39df348374bac9584a68
+
+Secret access key
+1a6b2b05001f5b72a8df961c5013bdb820282ea31a3a9070d29eba035a7af933
